@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256" preserveAspectRatio="xMidYMid" width="200" height="200" style="shape-rendering: auto; background: rgb(255, 246, 200);"><defs>
+  <pattern id="pid-0.9188710985203182" x="0" y="0" width="128" height="128" patternUnits="userSpaceOnUse">
+    <g transform="scale(0.5)"><defs><g id="stripe-0.6590519274487807">
+  <path d="M256 -128 L384 -128 L-128 384 L-128 256 Z" fill="#000"/>
+  <path d="M384 0 L384 128 L128 384 L0 384 Z" fill="#000"/>
+</g></defs>
+
+<g>
+  <use xlink:href="#stripe-0.6590519274487807" x="-256" y="0"/>
+  <use xlink:href="#stripe-0.6590519274487807" x="0" y="0"/>
+  <animateTransform attributeName="transform" type="translate" keyTimes="0;1" repeatCount="indefinite" dur="0.5s" values="0 0; 256 0"/>
+</g></g>
+  </pattern>
+</defs>
+<rect x="0" y="0" width="256" height="256" fill="url(#pid-0.9188710985203182)"/></svg>
